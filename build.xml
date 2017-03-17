@@ -23,7 +23,7 @@
 		
 	</path>
 
-	<target name="init">
+	<target name="init" depends = "clean">
 		<!-- Create the time stamp -->
 		<echo message="The base directory: ${basedir}"/>     
 		<tstamp/>
@@ -42,7 +42,7 @@
 	
 	<target name="junit" depends="compile">
 
-	    <junit printsummary="yes" haltonfailure="no" fork="true" >
+	    <junit printsummary="yes" haltonfailure="yes" fork="true" >
 
 		<!-- Project classpath, must include junit.jar -->
 		<classpath refid="Ant1.classpath" />
