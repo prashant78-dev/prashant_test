@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Prashant" name="testProjecttestcases.TestCases" skipped="0" tests="1" time="0.082" timestamp="2017-03-17T16:04:14">
+<testsuite errors="1" failures="0" hostname="Prashant" name="TestCases" skipped="0" tests="1" time="0.0" timestamp="2017-03-17T15:43:08">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -8,7 +8,7 @@
     <property name="dist" value="F:\javaworkspace\testProject\dist" />
     <property name="os.name" value="Windows 10" />
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes" />
-    <property name="TODAY" value="March 18 2017" />
+    <property name="TODAY" value="March 17 2017" />
     <property name="sun.desktop" value="windows" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="ant.home" value="C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9" />
@@ -19,7 +19,7 @@
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin" />
     <property name="ant.project.default-target" value="dist" />
     <property name="ant.project.name" value="MyProject" />
-    <property name="DSTAMP" value="20170318" />
+    <property name="DSTAMP" value="20170317" />
     <property name="java.version" value="1.8.0_121" />
     <property name="user.timezone" value="" />
     <property name="ant.file.MyProject" value="F:\javaworkspace\testProject\build.xml" />
@@ -55,10 +55,10 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testProjecttestcases.TestCases skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,F:\javaworkspace\testProject\report\TEST-testProjecttestcases.TestCases.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\javaworkspace\testProject\report\TEST-testProjecttestcases.TestCases.xml crashfile=F:\javaworkspace\testProject\junitvmwatcher3558184457147033685.properties propsfile=F:\javaworkspace\testProject\junit4379692769089306100.properties" />
-    <property name="java.class.path" value="F:\javaworkspace\testProject;F:\javaworkspace\testProject\locallib\hamcrest-core-1.3.jar;F:\javaworkspace\testProject\locallib\junit.jar;F:\javaworkspace\testProject\build\testProjecttestcases;F:\javaworkspace\testProject\build;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestCases skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\javaworkspace\testProject\TEST-TestCases.xml crashfile=F:\javaworkspace\testProject\junitvmwatcher4939897180974662293.properties propsfile=F:\javaworkspace\testProject\junit8890340002654116860.properties" />
+    <property name="java.class.path" value="F:\javaworkspace\testProject;F:\javaworkspace\testProject\locallib\hamcrest-core-1.3.jar;F:\javaworkspace\testProject\locallib\junit.jar;F:\javaworkspace\testProject\build\testProjecttestcases;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
-    <property name="TSTAMP" value="0004" />
+    <property name="TSTAMP" value="2343" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="sun.cpu.endian" value="little" />
@@ -79,7 +79,22 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="dist" />
   </properties>
-  <testcase classname="testProjecttestcases.TestCases" name="test123" time="0.004" />
+  <error message="TestCases (wrong name: testProjecttestcases/TestCases)" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: TestCases (wrong name: testProjecttestcases/TestCases)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+</error>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
