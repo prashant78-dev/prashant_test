@@ -12,7 +12,7 @@ public class TestCases {
 
 	@Test
 	public void test123() {
-		assertNull(null);
+		assertNull("null");
 	}
 
 }

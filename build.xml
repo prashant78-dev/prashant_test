@@ -4,10 +4,9 @@
   </description>
 	<!-- set global properties for this build -->
 	<property name="src" location="src"/>
-	<property name="test.dir" location="src/testProjecttestcases"/>
+	<property name="test.dir" location="build"/>
 	<property name="build" location="build"/>
 	<property name="dist" location="dist"/>
-	<property name="build.test.dir" location="src"/>
 	<property name="test.report.dir" location="report"/>
 
 	<path id="JUnit 4.libraryclasspath">
@@ -26,24 +25,24 @@
 		<mkdir dir="${build}"/>
 	</target>
 
-	<target name="compile" depends="junit" description="compile the source">
+	<target name="compile" depends="init" description="compile the source">
 		<javac  srcdir="${src}" destdir="${build}"  includeantruntime="false"  classpath="junit.jar"/>
 	</target>
 
-	<target name="dist" depends="compile" description="generate the distribution">
+	<target name="dist" depends="junit" description="generate the distribution">
 		<mkdir dir="${dist}/lib"/>
 		<jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
 	</target>
 	
 
-	<target name="junit" depends="init">
+	<target name="junit" depends="compile">
 		<junit printsummary="on" fork="true" haltonfailure="yes">
 			<classpath refid="Ant1.classpath" />
 
 			<formatter type="xml" />
 			<batchtest todir="${test.report.dir}">
 				<fileset dir="${test.dir}">
-					<include name="TestCases.java" />
+					<include name="*/TestCases.class" />
 				</fileset>
 			</batchtest>
 		</junit>
