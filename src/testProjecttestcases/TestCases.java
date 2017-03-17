@@ -1,11 +1,13 @@
 package testProjecttestcases;
 
+
+
+
 import static org.junit.Assert.*;
-import junit.framework.Assert;
 
 import org.junit.Test;
 
-public class testCases {
+public class TestCases {
 
 	@Test
 	public void test() {

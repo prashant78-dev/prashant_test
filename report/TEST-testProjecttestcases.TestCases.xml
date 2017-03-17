@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Prashant" name="testProjecttestcases.TestCases" skipped="0" tests="1" time="0.0" timestamp="2017-03-17T02:47:10">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/F:/eclipse/eclipse-jee-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="F:\javaworkspace\testProject\dist" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes" />
+    <property name="TODAY" value="March 17 2017" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="user.name" value="Prashant" />
+    <property name="user.language" value="en" />
+    <property name="build" value="F:\javaworkspace\testProject\build" />
+    <property name="test.report.dir" value="F:\javaworkspace\testProject\report" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin" />
+    <property name="ant.project.default-target" value="dist" />
+    <property name="ant.project.name" value="MyProject" />
+    <property name="DSTAMP" value="20170317" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="user.timezone" value="" />
+    <property name="ant.file.MyProject" value="F:\javaworkspace\testProject\build.xml" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="F:\javaworkspace\testProject\src" />
+    <property name="user.country" value="SG" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="F:\javaworkspace\testProject\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib" />
+    <property name="ant.file.type.MyProject" value="file" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/F:/eclipse/eclipse-jee-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts/" />
+    <property name="user.home" value="C:\Users\Prashant" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="F:\javaworkspace\testProject\src" />
+    <property name="java.library.path" value="F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Users\Prashant\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse;;.;F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\666\1\.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1489718828427 -Declipse.connect.port=50311 -Declipse.pdebuild.home=/F:/eclipse/eclipse-jee-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/./ -Declipse.pdebuild.scripts=/F:/eclipse/eclipse-jee-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts/ -Declipse.pdebuild.templates=/F:/eclipse/eclipse-jee-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates/ -Dant.home=C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile F:\javaworkspace\testProject\build.xml" />
+    <property name="java.class.path" value="C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-antlr.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bcel.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-bsf.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-log4j.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-oro.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-regexp.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-resolver.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-apache-xalan2.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-logging.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-commons-net.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jai.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-javamail.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jdepend.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jmf.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-jsch.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-junit4.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-launcher.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-netrexx.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-swing.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant-testutil.jar;C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar;F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\64\1\.cp\lib\antdebug.jar;F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\64\1\.cp\lib\remote.jar;F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\65\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jre1.8.0_121\lib\tools.jar;F:\eclipse\eclipse-jee-kepler-SR2-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.102.1.v20140206-1358.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
+    <property name="TSTAMP" value="1047" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="/F:/eclipse/eclipse-jee-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/./" />
+    <property name="java.io.tmpdir" value="C:\Users\Prashant\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="F:\javaworkspace\testProject" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="F:\javaworkspace\testProject" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\Prashant\Downloads\apache-ant-1.9.9-bin\apache-ant-1.9.9\lib\ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="dist" />
+  </properties>
+  <error message="testProjecttestcases.TestCases" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: testProjecttestcases.TestCases
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:32)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:424)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:138)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
