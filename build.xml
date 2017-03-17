@@ -7,7 +7,7 @@
 	<property name="test.dir" location="build"/>
 	<property name="build" location="build"/>
 	<property name="dist" location="dist"/>
-	<property name="test.report.dir" location="report"/>
+	<property name="report.dir" location="report"/>
 
 	<path id="JUnit 4.libraryclasspath">
 		<pathelement location="junit.jar"/>
@@ -34,19 +34,36 @@
 		<jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
 	</target>
 	
-
 	<target name="junit" depends="compile">
+
+	    <junit printsummary="yes" haltonfailure="no" fork="true" >
+
+		<!-- Project classpath, must include junit.jar -->
+		<classpath refid="Ant1.classpath" />
+
+		<!-- test class -->
+		<classpath location="${test.dir}" />
+
+		<test name="testProjecttestcases.TestCases" haltonfailure="no" todir="${report.dir}">
+			<formatter type="plain" />
+			<formatter type="xml" />
+
+		</test>
+
+	  </junit>
+	</target>
+	<!--<target name="junit" depends="compile">
 		<junit printsummary="on" fork="true" haltonfailure="yes">
 			<classpath refid="Ant1.classpath" />
-
+			<classpath location="${test.dir}" />
 			<formatter type="xml" />
-			<batchtest todir="${test.report.dir}">
+			<batchtest >
 				<fileset dir="${test.dir}">
-					<include name="*/TestCases.class" />
+					<include name="**/TestCases.class" />
 				</fileset>
 			</batchtest>
 		</junit>
-	</target>
+	</target>-->
 
 	<target name="clean" description="clean up">
 		<delete dir="${build}"/>
