@@ -44,12 +44,12 @@
 
 	</target>
 
-	<target name="dist" depends="junit" description="generate the distribution">
+	<target name="dist" depends="junit_batch" description="generate the distribution">
 		<mkdir dir="${dist}/lib"/>
 		<jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
 	</target>
 
-	<target name="junit" depends="compile">
+	<!--<target name="junit" depends="compile">
 
 		<junit printsummary="yes" haltonfailure="yes" fork="true" >
 			<classpath refid="Ant1.classpath" />
@@ -57,12 +57,27 @@
 
 			<test name="testProjecttestcases.TestCases" haltonfailure="no" todir="${report.dir}">
 				<formatter type="plain" />
-				<formatter type="xml" />
 			</test>
 		</junit>
 	</target>
+-->
+	<target name="junit_batch" depends="compile" >
+		<junit printsummary="yes" haltonfailure="yes">
+			<classpath>
+				<pathelement location="src"/>
+				<pathelement path="build"/>
+			</classpath>
+			<classpath refid="Ant1.classpath" />
+			<formatter type="plain"/>
+			<batchtest fork="yes" todir="${report.dir}">
+				<fileset dir="src">
+					<include name="**/TestCases*"/>
+					<exclude name="**/AllTests.java"/>
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
 
-	
 	<!--<target name="junit_batch" >
 		 <junit printsummary="yes" fork="true" >
 		 		<classpath refid="Ant1.classpath" />  
@@ -74,7 +89,7 @@
 		        </batchtest>
 		    </junit>
 	  
-	</target>--> 
+	</target>-->
 
 	<target name="clean" description="clean up">
 		<delete dir="${build}"/>
